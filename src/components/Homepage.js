@@ -1,10 +1,14 @@
-//import './Homepage.css';
 
+
+import './css/Homepage.css';
+
+import Ttown from './img/Entrance.png'
 function Homepage() {
   return (
     <div className="content">
-      This is the landing page for the site. 
-      <h1 style={{fontFamily: "SpongeboyRegular", color: "blue"}}>Welcome to Bikini Bottom!</h1>
+                                                       
+      <h1 id="wordE" style={{fontFamily: "Kingdom_Hearts_Font", color: " Gold"}}>Welcome to Traverse Town</h1>
+      <img  class="resize" src={Ttown} alt="Traverse Town " />
     </div>
   );
 }
