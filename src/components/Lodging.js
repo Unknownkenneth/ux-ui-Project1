@@ -13,10 +13,7 @@ function Lodging() {
         <div className="spongebob">
           <img src={spongehouse} alt="spongebob house" />
           <p>
-            Located at 124 Conch Street, this pineapple under the sea is an absolute gem!
-            The house is three stories high and fully furnished. There is a garage in the back of the house 
-            and two windows in the front. Out back of the house, the backyard is closed in by a square of flowers.
-            It also has an outdoor tap where a hose can be attached. 
+            Located In the Second district, The first world you arrive in, This Hotelgb
           </p>
         </div>
         <div className="squidward">
