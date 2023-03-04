@@ -3,7 +3,7 @@ import './App.css';
 import Homepage from './components/Homepage';
 import Lodging from './components/Lodging';
 import Attractions from './components/Attractions';
-import Restaurants from './components/Restaurants';
+import Shops from './components/Shops';
 
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 
@@ -15,7 +15,7 @@ export default function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Homepage />} />
           <Route path="lodging" element={<Lodging />} />
-          <Route path="restaurants" element={<Restaurants />} />
+          <Route path="shop" element={<Shops />} />
           <Route path="attractions" element={<Attractions />} />
 
 
@@ -43,7 +43,7 @@ function Layout() {
             <Link style={navStyle} to="/lodging">Lodging</Link>
           </li>
           <li>
-            <Link style={navStyle} to="/restaurants">Restaurants</Link>
+            <Link style={navStyle} to="/Shop">Shops</Link>
           </li>
           <li>
             <Link style={navStyle} to="/attractions">Attractions</Link>
