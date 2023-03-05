@@ -1,12 +1,15 @@
 .main {
-    background-color: lightcyan;
+    background-color: #F2C649;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     text-align: center;
-    color: blue
+    color: rgba(12, 166, 218, 0.888);
+    
 }
 
 .header h1 {
     font-family: "Kingdom_Hearts_Font";
     font-size: 100px;
+    
 }
 
 img {
@@ -18,17 +21,19 @@ img {
 }
 
 p {
-    background-color: lightblue;
-    color: blue;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: lightyellow;
     font-size: 1.3rem;
     border-radius: 5px;
     max-width: 30%;
     min-width: 285px;
     margin: 20px 0px;
     padding: 8px;
+    border-style: solid;
 }
 
-.spongebob, .patrick, .squidward {
+.Vacant, .hotel {
+    
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;

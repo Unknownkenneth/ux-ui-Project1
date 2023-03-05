@@ -1,40 +1,33 @@
 import './css/Lodging.css';
-import spongehouse from './img/spongebobs-house.webp'
-import pathouse from './img/patricks-house.jpeg'
-import squidhouse from './img/squidwards-house.png'
+
+import Vac from './img/Vacant.png'
+import Hotel from './img/hotel.png'
 function Lodging() {
   return (
     <div className='main'>
       <div className='header'> 
         <h1>Lodging</h1>
-        <h3>See what the best of Bikini Bottom has to offer for your stay!</h3>
+        <h3>See what the best place to rest!</h3>
       </div>
       <div className="boxes">
-        <div className="spongebob">
-          <img src={spongehouse} alt="spongebob house" />
+        <div className="Vacant">
+          <img src={Vac} alt="Vacant room" />
           <p>
-            Located In the Second district, The first world you arrive in, This Hotelgb
+            In the Third District, guests can use this room for a quick pit stop.
+            Or if you are looking for a room to have in case of traveling again. 
+            This room is a suitable location for renting for long periods.        
+
           </p>
         </div>
-        <div className="squidward">
-          <img src={squidhouse} alt="squidwards house" />
+        <div className="hotel">
+          <img src={Hotel} alt="Hotel" />
           <p>
-            Located at 122 Conch Street, this Easter Island head is a great place to stay. The ground floor consists 
-            of three adjoining rooms. the one at the front being the living room. The living room consists of a 
-            bookcase with some jazz records, a couch, a coffee table, and TV. Behind the living room 
-            is the kitchen with a fridge, an island counter, and four cabinets. 
+          Located In the Second district, This Hotel is completley different from any Hotel. This has the themes of the elements. 
+          Wind, Fire and Water(under constrution). The rooms are set to match the theme, such as the Fire room would be in all red and Wind would be in green
+         
           </p>
         </div>
-        <div className="patrick">
-          <img src={pathouse} alt="patrick house" />
-          <p>
-            Located at 120 Conch Street, the house is a large brown rock with a tan arrow-shaped weather vane 
-            on top. Like a door, the rock has hinges to open and close. Ammenities include a gray CRT TV, 
-            a green chair, a lamp with a yellow lampshade, a gray telephone, a brown barrel, 
-            and a bed with a wooden bed frame and green blanket. You can also 
-            use the sand to make furniture as needed. 
-          </p>
-        </div>
+        
       </div>
     </div>
   );
