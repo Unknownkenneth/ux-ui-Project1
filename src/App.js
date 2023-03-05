@@ -48,9 +48,7 @@ function Layout() {
           <li>
             <Link style={navStyle} to="/attractions">Attractions</Link>
           </li>
-          <li>
-            <Link style={navStyle} to="/nothing-here">Nothing Here</Link>
-          </li>
+          
         </ul>
       </nav>
 
