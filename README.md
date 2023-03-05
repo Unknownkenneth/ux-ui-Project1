@@ -1,17 +1,6 @@
-# Project 1 Example
+# Project 1
 ## UI/UX Design
+### Kenneth Louis
+This project is about a world in Kingdom Hearts 1 
 
-Install react-router-dom:
-
-```npm install react-router-dom```
-
-For reference:
-
-[Adding custom fonts](https://blog.greenroots.info/3-quick-ways-to-add-fonts-to-your-react-app)
-
-[Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
-
-[Git notes](https://docs.google.com/document/d/1IiKHX0lIk7n_AlNIttbD1d1ICukPVodbYmWj0IaCSPE/edit?usp=sharing)
-
-Hello here's a change!
 
